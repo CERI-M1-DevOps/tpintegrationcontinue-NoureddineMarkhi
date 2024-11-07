@@ -1,0 +1,65 @@
+    1  cd "D:\"
+    2  git init
+    3  git clone https://github.com/NoureddineMarkhi/ceri-m1-techniques-de-test.git
+    4  cd "D:\Techniques de Test"
+    5  git clone "https://github.com/NoureddineMarkhi/ceri-m1-techniques-de-test.git"
+    6  ls
+    7  git config --global user.name "NoureddineMarkhi"
+    8  git config --global user.email markhi.noureddine@gmail.com
+    9  git config --global --list
+   10  git checkout main
+   11  vi .git/config
+   12  ls -a
+   13  git remote -v
+   14  git remote remove origin
+   15  git remote -v
+   16  git remote rename upstream origin
+   17  git remote -v
+   18  git commit -a -m":ise a jour du fichier salut.yml"
+   19  ls
+   20  cd tpintegrationcontinue-NoureddineMarkhi
+   21  ls
+   22  ls -a
+   23  cd ..
+   24  mv .github/ tpintegrationcontinue-NoureddineMarkhi
+   25  cd ..
+   26  cd -
+   27  ls -a
+   28  cd tpintegrationcontinue-NoureddineMarkhi
+   29  ls -a
+   30  cd ..
+   31  ls -a
+   32  cd ..
+   33  git re;ote -v
+   34  git remote -v
+   35  cd ..
+   36  ls -a
+   37  rm -Rf .git
+   38  cd cd -
+   39  cd -
+   40  ls
+   41  ls Dev*
+   42  cd DevOps
+   43  ls
+   44  cd tpintegrationcontinue-NoureddineMarkhi
+   45  git remote -v
+   46  git status
+   47  git add .github
+   48  git commit -a -m"Mise a jour du fichier salut.yml"
+   49  git log
+   50  git reset HEAD~1
+   51  git checkout main
+   52  ls .github/
+   53  git status
+   54  git add .github
+   55  git commit -a -m"Mise a jour du fichier salut.yml"
+   56  git log --oneline
+   57  git push
+   58  git remote -v
+   59  git checkout dev
+   60  git remote -v
+   61  git checkout -
+   62  vi .git/config
+   63  git remote -v
+   64  git push
+   65  history > commandes
